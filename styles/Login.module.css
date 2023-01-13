@@ -1,0 +1,113 @@
+
+
+.body{
+   display: flex;
+   flex-direction: column;
+   font-family: 'Raleway',  sans-serif;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   width: 100vw;
+}
+
+.container{
+    width: 500px;
+    background-color: #f2f7fa;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 20px 40px;
+    border-radius: 15px;
+
+}
+
+.headerText{
+    color: #0f1160;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+.leadText{
+    text-align: center;
+    font-weight: bold;
+    color: #565657;
+}
+
+.container .forgotPassword {
+    margin-top: -1.7rem;
+    text-align: right;
+    margin-bottom: 2rem;
+  
+}
+.container .forgotPassword a{
+    color: #000;
+    text-decoration: underline;
+    
+}
+.container p{
+    text-align: center;
+    font-size: 0.7rem;
+}
+.container a{
+    text-decoration: none;
+    color: #3e9f99;
+}
+.convertBox{
+    
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    height: 50px;
+    align-items: center;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+.convertBox input{
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 10px;
+    font-weight: 700;
+    ;
+}
+.convertBox input::-webkit-outer-spin-button,
+.convertBox input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.currency{
+    background-color: #fff;
+    width: 80%;
+    height: 50%;
+    display: flex;
+    padding: 3px;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    justify-self: center;
+}
+.converter .currency p{
+    padding: 0;
+}
+.currency:hover{
+    background-color: #ccc;
+}
+.currency img{
+    width: 15px;
+    height: 15px;
+    border-radius: 3px;
+}
+.currency p{
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+.container form p{
+    text-align: left;
+    margin-bottom: 0.5rem;
+    font-size: 0.7rem;
+    color: #565657;
+    
+}

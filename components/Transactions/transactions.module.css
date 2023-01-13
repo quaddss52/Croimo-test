@@ -1,0 +1,54 @@
+.rtItem{
+    display: grid;
+    grid-template-columns: 70% 1fr;
+    height: 70px;
+    align-content: center;
+    grid-gap: 0.5rem;
+    
+}
+.rtItem .moneyDiv small{
+    font-size: 0.7rem;
+    text-align: right;
+    width: 100%;
+}
+
+.rtItem .rtLarge{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
+}
+.rtItem .rtLarge .exchange .iconDiv{
+    background-color: yellow ;
+}
+ .pending{
+    color: #e2b93b;
+}
+.rtItem .iconDiv{
+    background-color: #e7e8ee;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+
+}
+.rtItem .mainDiv{
+    align-self: flex-start;
+}
+.rtItem .mainDiv p{
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+}
+.rtItem .moneyDiv{
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+.rtItem .moneyDiv p{
+    font-size: 1rem;
+    padding: 0;
+}

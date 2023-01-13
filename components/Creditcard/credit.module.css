@@ -1,0 +1,51 @@
+.creditCard{
+    width: 100%;
+    height: 25%;
+    background:linear-gradient(rgba(42, 72, 114, 1),rgba(74, 149, 159, 1));
+    border-radius: 10px;
+    padding: 20px;
+    color: #c9d0d7;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    margin-bottom: 2rem;
+}
+.creditCard .upperCreditCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.creditCard .upperCreditCard .uccIcon{
+    font-size: 2rem;
+    color: #fff;
+}
+.creditCard .midCreditCard{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    align-items: center;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.creditCard .lowerCreditCard{
+    display: grid;
+    grid-template-columns: 1fr 1fr 40%;
+    align-items: flex-end;
+    justify-items: center;
+}
+.creditCard .lowerCreditCard p{
+    color: #fff;
+}
+.creditCard .lowerCreditCard .fade{
+    color:  #c9d0d7;
+    margin-bottom: 0.8rem;
+    font-size: 0.7rem;
+}
+.creditCard .lowerCreditCard .xDetails img{
+    width: 50px;
+    height: 50px;
+   
+}
+.creditCard .lowerCreditCard .xDetails{
+    justify-self: flex-end;
+    align-self: flex-end;
+}

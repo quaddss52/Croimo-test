@@ -1,0 +1,298 @@
+
+.pageHeader{
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+.dContent{
+    display: grid;
+    grid-template-columns: 700px 1fr;
+    grid-gap: 2rem;
+}
+.wallet, .quickA{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+   
+}
+.post{
+    margin-bottom: 2rem;
+}
+.card{
+    width: 100%;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 0 10px;
+}
+.card p{
+    font-size: 0.7rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bolder;
+    padding-left: 20px;
+}
+.cardPrimary:hover,.cardSecondary:hover{
+    opacity: 0.7;
+}
+.cfCard{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px 10px 10px;
+
+}
+.cfCardIcon{
+    font-size: 2rem;
+    color: #3e9f99;
+}
+.cfButton{
+  
+        padding: 15px 5px;
+        border: none;
+        border-radius: 10px;
+        background-color: #3e9f99;
+        color: #fff;
+        cursor: pointer;
+        width: 20%;
+        transition: all 0.5s ease-in-out;
+    
+    
+}
+.buttonDiv{
+    display: flex;
+    justify-content: flex-end;
+}
+.cfButton:hover{
+        opacity: 0.7;
+    }
+.card1{
+    padding: 15px 5px;
+    border: none;
+    border-radius: 15px;
+    background-color: #fff;
+    color: #242164;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+.card2{
+    padding: 15px 5px;
+    border: none;
+    border-radius: 15px;
+    background-color: #fff;
+    color: #3e9f99;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+.card1:hover, .card2:hover{
+    background-color: rgb(235, 235, 235);
+}
+.cardIcon{
+    margin-right: 1rem;
+    font-size: 2rem;
+}
+.cardPrimary{
+    background-color: #3e9f99;
+    color: #fff;
+    height: 170px;
+    border-radius: 15px;
+    padding: 20px;
+    transition: all 0.5s ease-in-out;
+}
+.cardSecondary{
+    background-color: #242164;
+    color: #fff;
+    height: 170px;
+    border-radius: 15px;
+    padding: 20px;
+    transition: all 0.5s ease-in-out;
+}
+.upperCard{
+    display: grid;
+    grid-template-columns: 270px 1fr;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.upperCard .firstC{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 0.8rem;
+    color: #efe1e3;
+}
+.upperCard img{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+.upperCardIcon{
+    background: transparent;
+    font-size: 1.2rem;
+    color: #fff;
+    cursor: pointer;
+   
+}
+.lowerCard{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+}
+.srDiv{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    grid-column-gap: 1rem;
+}
+.srDivIcon{
+    font-size: 2.5rem;
+    color: #fff;
+
+}
+.srDiv .card{
+    height: 150px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color:#efe1e3;
+    background-color: #3e9f99;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.srDiv .card:hover{
+    opacity: 0.7;
+}
+.srDivC .card{
+    height: 150px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fefefe;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.srDivC .card:hover{
+    background-color: rgb(235, 235, 235);
+}
+.srDivC img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 0.7rem;
+}
+.srDiv .srDivC{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    width:  90%;
+    
+   
+}
+.srDiv .srDivC .card{
+    font-size: 0.8rem;
+    color: #ccc;
+    font-weight: 100;
+}
+.srDiv .srDivC .card p{
+    font-size: 0.8rem;
+    color: #000;
+    margin-bottom: 0.5rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bolder;
+    padding-left: 0;
+}
+.creditCard{
+    width: 100%;
+    height: 25%;
+    background:linear-gradient(rgba(42, 72, 114, 1),rgba(74, 149, 159, 1));
+    border-radius: 10px;
+    padding: 20px;
+    color: #c9d0d7;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    margin-bottom: 2rem;
+}
+.creditCard .upperCreditCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.creditCard .upperCreditCard .uccIcon{
+    font-size: 2rem;
+    color: #fff;
+}
+.creditCard .midCreditCard{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    align-items: center;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.creditCard .lowerCreditCard{
+    display: grid;
+    grid-template-columns: 1fr 1fr 40%;
+    align-items: flex-end;
+    justify-items: center;
+}
+.creditCard .lowerCreditCard p{
+    color: #fff;
+}
+.creditCard .lowerCreditCard .fade{
+    color:  #c9d0d7;
+    margin-bottom: 0.8rem;
+    font-size: 0.7rem;
+}
+.creditCard .lowerCreditCard .xDetails img{
+    width: 50px;
+    height: 50px;
+   
+}
+.creditCard .lowerCreditCard .xDetails{
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
+.rtDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.rtDiv .pageHeader{
+    margin: 0;
+}
+
+.rtDiv p{
+    color: #3e9f99;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.rTransactions .card{
+    height: 650px;
+    padding: 20px;
+}
+
+
+
+
+

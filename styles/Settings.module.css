@@ -1,0 +1,296 @@
+.pageHeader{
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+.pCardInfo a{
+    color: #359b93;
+    text-decoration: none;
+    height: 40px;
+}
+
+.aContainer{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 2rem;
+    min-height: 100vh;
+}
+.aContainer a{
+text-decoration: none;
+}
+.pCard{
+    background-color: #fff;
+    width: 100%;
+    height: 40%;
+    border-radius: 15px;
+    padding: 20px;
+
+}
+.pCardInfo{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    padding: 40px 30px;
+}
+.pCardInfo .gBack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+}
+.pCardInfo .top{
+    display: flex;
+    
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.pCardInfo .top h3{
+   margin: 0;
+}
+.pCardInfo .iconDiv{
+    font-size: 1.5rem;
+   
+
+}
+.pCardInfo .profileP{
+    display: grid;
+    grid-template-columns: 60% 1fr 1fr;
+    align-items: center;
+    margin-bottom: 4rem;
+    grid-gap: 0.5rem;
+}
+.pCardInfo .profileP img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+.pCardInfo .profileP .changeP{
+    color: #359b93;
+    display: flex;
+    border: 1px dashed #ccc;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.pCardInfo .profileP .changeP:hover{
+    background-color: #f2f8f8;
+}
+.changeP p{
+    font-size: 0.8rem;
+}
+.pCardInfo .profileP .removeP{
+    padding: 20px;
+    color: #242164;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.pCardInfo .profileP .removeP:hover{
+    background-color:#242164;
+    color: #fff;
+}
+.btnB{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+}
+.btnB p{
+    margin-left:0.7rem ;
+    font-weight: 500;
+}
+.btn{
+    display: block;
+    padding: 15px 5px;
+    border: none;
+   
+    color: #6c7192;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.7;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    text-decoration: none;
+    padding-left: 1.5rem;
+    transition: all 0.5s ease-in-out;
+}
+.btn:hover, .btn.active{
+    border-right: 3px solid #359b93;
+    color: #359b93;
+}
+.btnS{
+    display: block;
+    padding: 15px 5px;
+    border: none;
+   background-color: #359b93;
+    color: white;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    width: 20%;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    text-decoration: none;
+    padding-left: 1.5rem;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+.btnS:hover{
+    opacity: 0.7;
+    
+    
+}
+
+.btn:current{
+    background-color: #f2f8f8;
+}
+
+.formGroup{
+    margin-bottom: 2rem;
+    font-family: 'DM Sans', sans-serif;
+}
+.formGroup label{
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #939291;
+    margin-bottom: 0.5rem;
+}
+.formGroup input{
+    display: block;
+    padding: 15px ;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 60px;
+    
+}
+
+
+
+.body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway',  sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+ }
+ 
+ .container{
+     width: 500px;
+     background-color: #f2f7fa;
+     display: flex;
+     flex-direction: column;
+     position: relative;
+     padding: 20px 40px;
+     border-radius: 15px;
+ 
+ }
+ 
+ .headerText{
+     color: #0f1160;
+     font-weight: bolder;
+     margin-bottom: 1rem;
+ }
+ .leadText{
+     text-align: center;
+     font-weight: bold;
+     color: #565657;
+ }
+ 
+ .container .forgotPassword {
+     margin-top: -1.7rem;
+     text-align: right;
+     margin-bottom: 2rem;
+   
+ }
+ .container .forgotPassword a{
+     color: #000;
+     text-decoration: underline;
+     
+ }
+ .container p{
+     text-align: center;
+     font-size: 0.7rem;
+ }
+ .container a{
+     text-decoration: none;
+     color: #3e9f99;
+ }
+ .convertBox{
+     border: 1px solid  #ccc;
+     background-color: #fff;
+     display: grid;
+     grid-template-columns: 10% 1fr;
+     height: 50px;
+     align-items: center;
+     width: 100%;
+     height: 100%;
+     border-radius: 15px;
+     margin-bottom: 2rem;
+ }
+ .convertBox input{
+     border: none;
+     outline: none;
+     font-size: 1rem;
+     padding: 20px;
+     font-weight: 700;
+     
+     border-radius: 15px;
+     
+ }
+ .convertBox input::-webkit-outer-spin-button,
+ .convertBox input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+ }
+ 
+ .currency{
+     background-color: #fff;
+     width: 80%;
+     height: 50%;
+     display: flex;
+     padding: 3px;
+     justify-content: space-between;
+     font-size: 0.7rem;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: all 0.5s ease-in-out;
+     justify-self: center;
+     align-items: center;
+ }
+ .converter .currency p{
+     padding: 0;
+ }
+ .currency:hover{
+     background-color: #ccc;
+ }
+ .currency img{
+     width: 15px;
+     height: 15px;
+     border-radius: 3px;
+ }
+ .currency p{
+     font-weight: 600;
+     font-size: 0.8rem;
+ }
+ .container form p{
+     text-align: left;
+     margin-bottom: 0.5rem;
+     font-size: 0.7rem;
+     color: #565657;
+     
+ }
