@@ -1,17 +1,51 @@
 import styles from './transactions.module.css'
 import {RiRefreshLine} from 'react-icons/ri'
-import {IoReturnDownBack} from 'react-icons/io'
-import {IoReturnUpForwardOutline} from 'react-icons/io'
+import {TfiBackLeft} from 'react-icons/tfi'
+import {RiShareForwardLine} from 'react-icons/ri'
 
-function Transaction({text, time, value, status, icon,statusSt, bgClass }) {
+function Transaction({text, time, value, status, icon,action }) {
  
+    // const getStatusColor = ()=>{
+    //     if (status === 'pending') {
+    //         return 'orange'
+    //     } else if(status === 'cancelled'){
+    //         return 'red'
+    //     }else{
+    //         return 'green'
+    //     }
+    // }
+
+    let statusColor = 'green'
+    if(status === 'pending') {
+        statusColor = 'orange'
+    }
+    if(status === 'cancelled') {
+        statusColor = 'red'
+    }
+
+    let Icon = RiRefreshLine
+    if(action === 'send') {
+        Icon = TfiBackLeft
+    }
+    if(action === 'fund') {
+        Icon = RiShareForwardLine
+    }
+
+    let iconColor = '#626794'
+    if(action === 'send') {
+        iconColor = '#f1171f'
+    }
+    if(action === 'fund') {
+        iconColor = '#43a39d'
+    }
+
   return (
     <>
         <div className={styles.rtItem}>
             <div className={styles.rtLarge}>
-                <div className={bgClass}>
-                <div className={styles.iconDiv}>
-                   {icon}
+                <div>
+                <div className={styles.iconDiv}  style={{ background: `${iconColor}24`}}>
+                   <Icon color={iconColor} />
                 </div>
                 </div>
                 <div className={styles.mainDiv}>
@@ -21,7 +55,9 @@ function Transaction({text, time, value, status, icon,statusSt, bgClass }) {
             </div>
             <div className={styles.moneyDiv}>
                 <p>{value}</p>
-                <small className={statusSt}>{status}</small>
+                <small style={{
+                    color: statusColor
+                }}>{status}</small>
             </div>
 
       
