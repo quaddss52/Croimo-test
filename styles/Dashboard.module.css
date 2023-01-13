@@ -175,6 +175,11 @@
     cursor: pointer;
     transition: all 0.5s ease-in-out;
 }
+.srDiv .card p{
+    color: #fff;
+    padding: 0;
+    font-size: 1rem;
+}
 .srDiv .card:hover{
     opacity: 0.7;
 }
